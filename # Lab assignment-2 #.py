@@ -1,7 +1,7 @@
 # Lab assignment-2 #
 
 def show_menu():
-    print("\nWelcome to GradeBook Analyzer")
+    print("\nWelcome to GradeBook ")
     print("1. Enter marks manually")
     print("2. Load marks from CSV file")
 
@@ -112,3 +112,4 @@ while True:
         pass_fail(marks)
 
         print_table(marks, grades)
+
